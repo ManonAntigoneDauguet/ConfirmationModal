@@ -10,7 +10,7 @@ Add the modal to your project by executing `npm i manon-confirmation-modal`
 ### Usage
 Here's an example of usage :
 
-import { ManonModal } from 'manon-confirmation-modal'
+`import { ManonModal } from 'manon-confirmation-modal'
 import { useState } from "react"
 
 function MyApp() {
@@ -29,4 +29,4 @@ function MyApp() {
             }
         </div>
     )
-}
+}`
