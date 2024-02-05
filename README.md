@@ -10,23 +10,23 @@ Add the modal to your project by executing `npm i manon-confirmation-modal`
 ### Usage
 Here's an example of usage :
 
-`import { ManonModal } from 'manon-confirmation-modal'
-import { useState } from "react"
+    import { ManonModal } from 'manon-confirmation-modal'
+    import { useState } from "react"
 
-function MyApp() {
-    const [isModalVisible, setIsModalVisible] = useState(false)
+    function MyApp() {
+        const [isModalVisible, setIsModalVisible] = useState(false)
 
-    const handleSubmit = () => {
-        // add conditions before the action to confirmed
-        setIsModalVisible(true)
+        const handleSubmit = () => {
+            // add conditions before the action to confirmed
+            setIsModalVisible(true)
+        }
+
+        return (
+            <div>
+                <button onClick={handleSubmit}>Save</button>
+                {isModalVisible &&
+                    <ManonModal methodeOff={() => setIsModalVisible(false)} />
+                }
+            </div>
+        )
     }
-
-    return (
-        <div>
-            <button onClick={handleSubmit}>Save</button>
-            {isModalVisible &&
-                <ManonModal methodeOff={() => setIsModalVisible(false)} />
-            }
-        </div>
-    )
-}`
