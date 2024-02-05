@@ -1,0 +1,19 @@
+{
+  "name": "manon-confirmation-modal",
+  "version": "1.0.0",
+  "description": "confirmation modal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManonAntigoneDauguet/ConfirmationModal.git"
+  },
+  "author": "Manon Antigone Dauguet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManonAntigoneDauguet/ConfirmationModal/issues"
+  },
+  "homepage": "https://github.com/ManonAntigoneDauguet/ConfirmationModal#readme"
+}
